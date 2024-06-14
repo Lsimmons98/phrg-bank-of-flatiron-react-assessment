@@ -17,9 +17,16 @@ instructions. While you will definitely have a significant amount of freedom in
 how you implement the features, be sure to carefully read the directions for
 setting up the application.
 
-## Setup
+## Submission
 
-After unbundling the project:
+Do not push your changes up to Github. When you finish:
+
+1. If you haven't already, create a custom branch with `git checkout -b custom_branch`.
+2. `git add` and `git commit` your changes.
+3. From you custom branch, run `git format-patch main --stdout > your_name.patch`, replacing `your_name` with your first and last name.
+4. Send the patch file to your instructor on Connect before the specified time. Remember, you can use `open .` to launch a Finder window from your current directory, and then drag your file into Connect.
+
+## Setup
 
 1. Run `npm install` in your terminal.
 2. Run `npm run server`. This will run your backend on port `8001`.
@@ -123,6 +130,8 @@ As a user, I should be able to:
 
 - Sort transactions alphabetically by category or description.
 - Delete a transaction which will remove it from the table and delete it from the backend.
+
+Implement these features in any way you see fit, as they are not shown in the mock and don’t need to be pretty, just functional.
 
 ### Endpoints for Advanced Deliverables
 
